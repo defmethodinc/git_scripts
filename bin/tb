@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+$LOAD_PATH.unshift(File.dirname(__FILE__)) # this is required when running from /usr/local/bin
+require 'def_method_git_scripts/git_topic_branch'
+
+DefMethodGitScripts::GitTopicBranch.main(ARGV)
+
